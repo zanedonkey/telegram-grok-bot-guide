@@ -1,0 +1,28 @@
+# 配置与凭据
+.env
+.env.*
+!.env.example
+secrets.env
+secrets.*
+*.pem
+*.key
+# 私人运行数据
+state/
+logs/
+backups/
+pending_bind.json
+bound_user.json
+*.log
+*.db
+*.sqlite
+*.sqlite3
+# Python / 本地工具
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
